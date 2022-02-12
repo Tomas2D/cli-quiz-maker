@@ -1,0 +1,43 @@
+﻿Umělé neuronové sítě mohou být:
+dopředné //
+rekurentní //
+použity pro klasifikaci //
+samoorganizující //
+
+Předností hill climbingu v základní formě je:
+zaručená konvergence ke globálnímu optimu
+zaručená konvergence //
+vysoká klasifikační úspěšnost
+rychlost řešní problémů s vysokou dimenzionalitou
+
+Informované prohledávání stavového prostoru:
+Může být realizováno Dijkstrovým algoritmem.
+Může být realizováno algoritmem Greedy search. //
+Může být realizováno algoritmem A*. //
+Vyžaduje heuristickou funkci. //
+
+Pravděpodobnost přijetí zhoršující změny při simulovaném žíhání záleží na:
+velikosti zhoršení //
+teplotě //
+setrvačnosti
+čase
+
+Pro klasifikaci platí:
+Jejím výstupem je reálné číslo.
+Jejím výstupem je prvek konečné množiny. //
+V současné době je nahrazována regresí.
+Může být realizována algoritme k-NN. //
+jejím výstupem je strom
+jedná se o metodu učení bez učitele
+
+Plánovací úloha ve STRIPS je zadána čtveřicí (P, A, I, G), tato čtveřice reprezentuje:
+množinu atomů, algoritmus hledání řešení, vstup, koncový stav
+plánovací algoritmus, množinu atomů, vstup, koncový stav
+množinu atomů, množinu akcí, počáteční stav, koncový stav //
+množinu atomů, algortimus hledání řešení, vstup, koncový stav
+
+Nalezení nejkratší cesty ve stavovém prostoru bez ohodnocení akcí garantuje algoritmus:
+BFS //
+Hill climbing
+DFS
+Greedy search
