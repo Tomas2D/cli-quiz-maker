@@ -122,4 +122,4 @@ Your answer: no
 ```
 
 ## TODO
-- [] Rewrite `example.txt` to English.
+- [ ] Rewrite `example.txt` to English.
