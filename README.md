@@ -28,19 +28,37 @@ In your answer, type letters of answers you think are correct, delimited by spac
 
 Get ready!
 
-1. Pro klasifikaci platí:
+1. Informed state space search:
 
-A: Jejím výstupem je reálné číslo.
-B: V současné době je nahrazována regresí.
-C: jejím výstupem je strom
-D: Může být realizována algoritme k-NN. 
-E: Jejím výstupem je prvek konečné množiny. 
-F: jedná se o metodu učení bez učitele
+A: Requires a heuristic function. 
+B: Can be implemented by the A* algorithm. 
+C: Can be implemented by the Greedy search algorithm. 
+D: Can be implemented by Dijkstra's algorithm.
 
-Your answer: E D
+Your answer: A B C
 ✅ Correct! :-)
 
-2. Nalezení nejkratší cesty ve stavovém prostoru bez ohodnocení akcí garantuje algoritmus:
+2. Artificial neural networks can be:
+
+A: self-organizing 
+B: forward 
+C: used for classification 
+D: recurrent 
+
+Your answer: D C A B
+✅ Correct! :-)
+
+3. The advantage of hill climbing in its basic form is:
+
+A: high classification success rate
+B: guaranteed convergence 
+C: guaranteed convergence to the global optimum
+D: speed of solving high-dimensional problems
+
+Your answer: B
+✅ Correct! :-)
+
+4. Finding the shortest path in the state space without evaluating actions is guaranteed by the algorithm:
 
 A: BFS 
 B: Hill climbing
@@ -50,55 +68,37 @@ D: DFS
 Your answer: A
 ✅ Correct! :-)
 
-3. Plánovací úloha ve STRIPS je zadána čtveřicí (P, A, I, G), tato čtveřice reprezentuje:
+5. The planning problem in STRIPS is given by a quartet (P, A, I, G), this quartet represents:
 
-A: množinu atomů, algoritmus hledání řešení, vstup, koncový stav
-B: množinu atomů, množinu akcí, počáteční stav, koncový stav 
-C: množinu atomů, algortimus hledání řešení, vstup, koncový stav
-D: plánovací algoritmus, množinu atomů, vstup, koncový stav
-
-Your answer: B
-✅ Correct! :-)
-
-4. Pravděpodobnost přijetí zhoršující změny při simulovaném žíhání záleží na:
-
-A: velikosti zhoršení 
-B: čase
-C: setrvačnosti
-D: teplotě 
+A: the set of atoms, the solution finding algorithm, the input, the final state
+B: set of atoms, solution search algorithm, input, end state
+C: set of atoms, set of actions, initial state, final state 
+D: the planning algorithm, the set of atoms, the input, the end state
 
 Your answer: D
-❗Wrong! Success rate: 75%
-❗Correct was: A D 
+❗Wrong! Success rate: 50%
+❗Correct was: C 
 
-5. Informované prohledávání stavového prostoru:
+6. For classification:
 
-A: Může být realizováno Dijkstrovým algoritmem.
-B: Může být realizováno algoritmem Greedy search. 
-C: Vyžaduje heuristickou funkci. 
-D: Může být realizováno algoritmem A*. 
+A: Its output is a real number.
+B: Its output is an element of a finite set. 
+C: It can be implemented by the k-NN algorithm. 
+D: Its output is a tree
+E: It is currently being replaced by regression.
+F: it is a method of learning without a teacher
 
-Your answer: B D C
+Your answer: C B
 ✅ Correct! :-)
 
-6. Umělé neuronové sítě mohou být:
+7. The probability of accepting a deteriorating change in simulated annealing depends on:
 
-A: použity pro klasifikaci 
-B: samoorganizující 
-C: dopředné 
-D: rekurentní 
+A: time
+B: temperature 
+C: inertia
+D: the magnitude of the deterioration 
 
-Your answer: C D A B
-✅ Correct! :-)
-
-7. Předností hill climbingu v základní formě je:
-
-A: zaručená konvergence 
-B: zaručená konvergence ke globálnímu optimu
-C: rychlost řešní problémů s vysokou dimenzionalitou
-D: vysoká klasifikační úspěšnost
-
-Your answer: A
+Your answer: B D
 ✅ Correct! :-)
 
 =========================================
@@ -108,8 +108,8 @@ Test finished!
 Questions answered: 7/7
 Questions answered (correct): 6/7
 Questions answered (incorrect): 1/7
-Total correct answers: 29/30
-Total incorrect answers: 1/30
+Total correct answers: 28/30
+Total incorrect answers: 2/30
 Success rate: 6/7
 Percentage: 85.7143%
 
@@ -120,6 +120,3 @@ Your answer: no
 Do you want to start new test? [yes/no]
 Your answer: no
 ```
-
-## TODO
-- [ ] Rewrite `example.txt` to English.

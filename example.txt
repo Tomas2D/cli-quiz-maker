@@ -1,42 +1,42 @@
-﻿Umělé neuronové sítě mohou být:
-dopředné //
-rekurentní //
-použity pro klasifikaci //
-samoorganizující //
+﻿Artificial neural networks can be:
+forward //
+recurrent //
+used for classification //
+self-organizing //
 
-Předností hill climbingu v základní formě je:
-zaručená konvergence ke globálnímu optimu
-zaručená konvergence //
-vysoká klasifikační úspěšnost
-rychlost řešní problémů s vysokou dimenzionalitou
+The advantage of hill climbing in its basic form is:
+guaranteed convergence to the global optimum
+guaranteed convergence //
+high classification success rate
+speed of solving high-dimensional problems
 
-Informované prohledávání stavového prostoru:
-Může být realizováno Dijkstrovým algoritmem.
-Může být realizováno algoritmem Greedy search. //
-Může být realizováno algoritmem A*. //
-Vyžaduje heuristickou funkci. //
+Informed state space search:
+Can be implemented by Dijkstra's algorithm.
+Can be implemented by the Greedy search algorithm. //
+Can be implemented by the A* algorithm. //
+Requires a heuristic function. //
 
-Pravděpodobnost přijetí zhoršující změny při simulovaném žíhání záleží na:
-velikosti zhoršení //
-teplotě //
-setrvačnosti
-čase
+The probability of accepting a deteriorating change in simulated annealing depends on:
+the magnitude of the deterioration //
+temperature //
+inertia
+time
 
-Pro klasifikaci platí:
-Jejím výstupem je reálné číslo.
-Jejím výstupem je prvek konečné množiny. //
-V současné době je nahrazována regresí.
-Může být realizována algoritme k-NN. //
-jejím výstupem je strom
-jedná se o metodu učení bez učitele
+For classification:
+Its output is a real number.
+Its output is an element of a finite set. //
+It is currently being replaced by regression.
+It can be implemented by the k-NN algorithm. //
+Its output is a tree
+it is a method of learning without a teacher
 
-Plánovací úloha ve STRIPS je zadána čtveřicí (P, A, I, G), tato čtveřice reprezentuje:
-množinu atomů, algoritmus hledání řešení, vstup, koncový stav
-plánovací algoritmus, množinu atomů, vstup, koncový stav
-množinu atomů, množinu akcí, počáteční stav, koncový stav //
-množinu atomů, algortimus hledání řešení, vstup, koncový stav
+The planning problem in STRIPS is given by a quartet (P, A, I, G), this quartet represents:
+the set of atoms, the solution finding algorithm, the input, the final state
+the planning algorithm, the set of atoms, the input, the end state
+set of atoms, set of actions, initial state, final state //
+set of atoms, solution search algorithm, input, end state
 
-Nalezení nejkratší cesty ve stavovém prostoru bez ohodnocení akcí garantuje algoritmus:
+Finding the shortest path in the state space without evaluating actions is guaranteed by the algorithm:
 BFS //
 Hill climbing
 DFS
